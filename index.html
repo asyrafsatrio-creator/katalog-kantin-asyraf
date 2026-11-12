@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantin Sehat PPLG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kantin Sehat PPLG</h1>
+        <nav>
+            <button class="filter-btn" onclick="filterMenu('all')">Semua</button>
+            <button class="filter-btn" onclick="filterMenu('makanan')">Makanan</button>
+            <button class="filter-btn" onclick="filterMenu('minuman')">Minuman</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="card" data-category="makanan">
+            <img src="img/makanan1.jpg" alt="Salted Egg Chicken">
+            <div class="card-body">
+                <h3>Salted Egg Chicken</h3>
+                <p class="price">Rp 40.000</p>
+                <a href="https://wa.me/6285881825662?text=Halo,%20saya%20mau%20pesan%20Ayam%20Geprek" class="btn-order" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+            </div>
+        </div>
+
+        <div class="card" data-category="makanan">
+            <img src="img/makanan2.jpg" alt="Shrimp Aglio Olio">
+            <div class="card-body">
+                <h3>Shrimp Aglio Olio</h3>
+                <p class="price">Rp 52.000</p>
+                <a href="https://wa.me/6285881825662?text=Halo,%20saya%20mau%20pesan%20Nasi%20Goreng" class="btn-order" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+            </div>
+        </div>
+
+        <div class="card" data-category="makanan">
+            <img src="img/makanan3.jpg" alt="french Fries">
+            <div class="card-body">
+                <h3>french Fries</h3>
+                <p class="price">Rp 35.000</p>
+                <a href="https://wa.me/6285881825662?text=Halo,%20saya%20mau%20pesan%20Mie%20Goreng" class="btn-order" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+            </div>
+        </div>
+
+        <div class="card" data-category="minuman">
+            <img src="img/minuman1.jpg" alt="Matcha Latte">
+            <div class="card-body">
+                <h3>Matcha Latte</h3>
+                <p class="price">Rp 28.000</p>
+                <a href="https://wa.me/6285881825662?text=Halo,%20saya%20mau%20pesan%20Matcha%20Latte" class="btn-order" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+            </div>
+        </div>
+
+        <div class="card" data-category="minuman">
+            <img src="img/minuman2.jpg" alt="Blue ocean">
+            <div class="card-body">
+                <h3>Blue Ocean</h3>
+                <p class="price">Rp 18.000</p>
+                <a href="https://wa.me/6285881825662?text=Halo,%20saya%20mau%20pesan%20Es%20Teh%20Manis" class="btn-order" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+            </div>
+        </div>
+
+        <div class="card" data-category="minuman">
+            <img src="img/minuman3.jpg" alt="Butterfly Pea Lemonade">
+            <div class="card-body">
+                <h3>Butterfly Pea Lemonade</h3>
+                <p class="price">Rp 35.000</p>
+                <a href="https://wa.me/6285881825662?text=Halo,%20saya%20mau%20pesan%20Jus%20Alpukat" class="btn-order" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
